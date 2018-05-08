@@ -33,14 +33,15 @@ export default class Table extends Component {
       })
       return(<View key={key++} style={[style.row, {height: this.state.height}]}>{a}</View>)
     })
+
     return(
       <ScrollView>
         <View style={style.col}>
           <View style={[style.row, {height: this.state.height}]}>
-            {H}
+            {H.length>0?H:''}
           </View>
           <View style={style.col}>
-            {B}
+            {B.length>0?B:''}
           </View>
         </View>
       </ScrollView>
