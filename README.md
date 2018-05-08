@@ -15,7 +15,7 @@
 - body like this `[[1, 'apple'], [2, 'banana'], [3, 'pineapple']]`
 
 ## example
-```
+```javascrpit
 import React, { Component } from 'react'
 import { StyleSheet, SafeAreaView } from 'react-native'
 import Table from 'react-native-table-simple-version'
